@@ -1,4 +1,4 @@
-# team6Bot
+# TTR06_bot
 Telegram bot made by team #6 of 2019 SITCON Camp
 
 ## Before you run this bot
