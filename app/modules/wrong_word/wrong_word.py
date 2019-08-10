@@ -12,10 +12,13 @@ import string
 # param: url, const string
 url = 'http://ckip.iis.sinica.edu.tw/service/typo/api'
 
+# get: punctuation_list, emoji_list
 # exec when import the file
+emoji_dict = {}
 punctuation_dict = {}
 with open('app/modules/wrong_word/punctuation.json', 'r', encoding='utf-8') as json_file:
     punctuation_dict = json.load(json_file)
+# end get punctuation
 
 
 template_single_list = [
@@ -177,6 +180,11 @@ def get_correct_text(text):
 def wrong_word_checker(input_str):
     # delete space
     input_str = input_str.replace(' ', '')
+
+    # delete emoji
+    if input_str[0] in emoji_dict:
+        return 
+
     # split string with punctuation
     split_dic = split_pun(input_str)  # {'str_list', 'punctuation_list'}
     new_dic_list = []   # {'new_str', 'canged_char_list'}
