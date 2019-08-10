@@ -21,8 +21,8 @@ with open('app/modules/wrong_word/punctuation.json', 'r', encoding='utf-8') as j
     punctuation_dict = json.load(json_file)
 
 emoji_list = return_all_emoji()
-for e in emoji_list:
-    emoji_dict[e[0]]
+for emoji in emoji_list:
+    emoji_dict[emoji[0]] = 1
 # end get punctuation
 
 
