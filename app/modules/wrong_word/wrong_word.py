@@ -2,6 +2,7 @@ import requests
 import random
 import json
 import string
+from modules.Yan.yan import return_all_emoji
 
 # writing with ass grammer:
 # nn mode and None_nn model
@@ -18,6 +19,10 @@ emoji_dict = {}
 punctuation_dict = {}
 with open('app/modules/wrong_word/punctuation.json', 'r', encoding='utf-8') as json_file:
     punctuation_dict = json.load(json_file)
+
+emoji_list = return_all_emoji()
+for e in emoji_list:
+    emoji_dict[e[0]]
 # end get punctuation
 
 
@@ -183,7 +188,7 @@ def wrong_word_checker(input_str):
 
     # delete emoji
     if input_str[0] in emoji_dict:
-        return 
+        return None
 
     # split string with punctuation
     split_dic = split_pun(input_str)  # {'str_list', 'punctuation_list'}
@@ -221,7 +226,7 @@ def wrong_word_checker(input_str):
 
 # if main exec code
 if __name__ == '__main__':
-    text = '在來一次好嗎, 應該不是這樣'
+    text = '✪在來一次好嗎, 應該不是這樣'
 
     reply = wrong_word_checker(text)
     print('message reply:'+reply)
