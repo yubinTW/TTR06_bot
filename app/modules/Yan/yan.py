@@ -9,21 +9,10 @@ f=open(YanDataPath,encoding='utf-8')
 info=f.read()
 Data=dict(json.loads(info))['list']
 tags='['
-<<<<<<< HEAD
-
-def return_all_emoji():
-    yans = []
-    for item in Data:
-        tags = tags+"["+item["tag"]+"]"+'\n'
-        yans.append(i['yan'])
-    return yans
-
-=======
 yans=[]
 for item in Data:
     tags=tags+"["+item["tag"]+"]"+'\n'
     yans.append(item['yan'])
->>>>>>> 6d6f8609e313c80576df4f12f8ef594d34285e54
 def post_yan(bot, update):
     query = update.inline_query.query
     if len(query) == 0:
@@ -43,4 +32,7 @@ def post_yan(bot, update):
     update.inline_query.answer(results)
 def helpping(bot,update):
     reply_message="你可以說的有\n\n{}".format(tags)
+    update.message.reply_text(reply_message)
+def showinfo(bot,update):
+    reply_message='made by:Kenn,Yuga Lin,An,Borm,An Jung\n\n隊輔：去冰,宙斯'
     update.message.reply_text(reply_message)
