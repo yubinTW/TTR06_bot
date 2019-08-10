@@ -21,10 +21,12 @@ with open('app/modules/wrong_word/punctuation.json', 'r', encoding='utf-8') as j
     punctuation_dict = json.load(json_file)
 
 emoji_list = yans
-for emoji in emoji_list:
-    emoji_dict[emoji[0]] = 1
+for emojis in emoji_list:
+    for emoji in emojis:
+        emoji_dict[emoji[0]] = 1
 # end get punctuation
 
+# print(emoji_dict)
 
 template_single_list = [
     '$ans啦幹',
