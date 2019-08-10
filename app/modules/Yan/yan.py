@@ -43,3 +43,6 @@ def post_yan(bot, update):
 def helpping(bot, update):
     reply_message = "你可以說的有\n\n{}".format(tags)
     update.message.reply_text(reply_message)
+def showinfo(bot,update):
+    reply_message='made by:Kenn,Yuga Lin,An,Borm,An Jung\n\n隊輔：去冰,宙斯'
+    update.message.reply_text(reply_message)
