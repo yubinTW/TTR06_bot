@@ -12,7 +12,7 @@ tags='['
 yans=[]
 for item in Data:
     tags=tags+"["+item["tag"]+"]"+'\n'
-    yans.append(i['yan'])
+    yans.append(item['yan'])
 def post_yan(bot, update):
     query = update.inline_query.query
     if len(query) == 0:
