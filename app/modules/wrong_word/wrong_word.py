@@ -14,7 +14,7 @@ url = 'http://ckip.iis.sinica.edu.tw/service/typo/api'
 
 # exec when import the file
 punctuation_dict = {}
-with open('./app/modules/wrong_word/punctuation.json', 'r') as json_file:
+with open('./modules/wrong_word/punctuation.json', 'r') as json_file:
     punctuation_dict = json.load(json_file)
 
 
