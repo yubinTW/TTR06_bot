@@ -1,6 +1,8 @@
 import requests
-from zhuyin_engkey_dict import eng_zhuyin_dict
+from .zhuyin_engkey_dict import eng_zhuyin_dict
+from .zhuyin_check import check
 import random
+import re
 
 reply_sentences = [
     "你是想說 **{correct}** 嗎?",
@@ -30,31 +32,46 @@ def engkey_to_words(engkey):
 
 
 def checkVaildInput(input):
+    final = []
+    sep = re.split(' |6|3|4', input)
+    curr_index = 0
+    for item in sep:
+        curr_index += len(item)+1
+        if curr_index > len(input):
+            break
+        print(curr_index)
+        one_text = item+input[curr_index-1]
+        print(one_text)
+        if not check(one_text):
+            print('fail')
+            return False
+
     return True
-    # TODO: add vaild check
 
 
-def handle_tg_message(message, update):
-    sneder_id = update.message.from_user.id
-    # sneder_id = "124"
+def handle_tg_message(message, sender_id):
+    for c in message:
+        ord_num = ord(c)
+        if not (ord_num >= 65 and ord_num <= 90) or (ord_num >= 48 and ord_num <= 57)or(ord_num >= 97 and ord_num <= 122):
+            return None
+        
     if checkVaildInput(message):
         correct_sentence = engkey_to_words(message)
         if len(correct_sentence) != 0:
 
-            if sneder_id not in wrong_count:
-                wrong_count[sneder_id] = 0
-            wrong_count[sneder_id] += 1
-            # print('{}: {}'.format(sneder_id,
-            #                       wrong_count[sneder_id]))
+            if sender_id not in wrong_count:
+                wrong_count[sender_id] = 0
+            wrong_count[sender_id] += 1
 
             reply = random.choice(reply_sentences).format(
-                correct=correct_sentence, count=wrong_count[sneder_id])
-            # print(reply)
-            update.message.reply_text(reply)
+                correct=correct_sentence, count=wrong_count[sender_id])
+
+            return reply
 
 
 if __name__ == '__main__':
     # run tests
-    print(zhuyin_to_words('ㄨㄛˇㄏㄠˇㄜˋ'))
-    print(engkey_to_words('su3cl3'))
-    handle_tg_message('su3cl3', None)
+    # print(zhuyin_to_words('ㄨㄛˇㄏㄠˇㄜˋ'))
+    # print(engkey_to_words('su3cl3'))
+    # handle_tg_message('su3cl3', None)
+    checkVaildInput('su3cl3')

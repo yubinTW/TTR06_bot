@@ -1,54 +1,38 @@
 import json
 
-dics = []
+dic = {}
 
-for i in range(1):
-    with open('app/modules/zhuyin/data/{}.json'.format(i+1)) as FILE:
-        dic = json.load(FILE)
-        dics.append(dic)
+with open('app/modules/zhuyin/data.json',encoding='utf-8') as FILE:
+    dic = json.load(FILE)
 
 # check one word
-def check_1(texts):
-    print(texts)
-    dic = dics[0]
-    if texts[0] in dic:
-        if texts[1] in dic[texts[0]]:
-            return True
-    return False
-
-# check one word
-def check_2(texts):
-    print(texts)
-    dic = dics[1]
-    if texts[0] in dic:
-        if texts[1] in dic[texts[0]]:
-            return True
-        else:
-            return False
 
 
-# check one word
-def check_3(texts):
-    print(texts)
-    dic = dics[2]
-    if texts[0] in dic:
-        if texts[1] in dic[texts[0]]:
-            return True
-        else:
-            return False
-
-
-def check(texts):
-    leng = len(texts)
+def check(text):
+    return True
+    leng = len(text)
     if leng == 2:
-        return check_1(texts)
+        if text[0] in dic:
+            if text[1] in dic[text[0]]:
+                return True
+        return False
     elif leng == 3:
-        return check_1(texts)
+        if text[0] in dic:
+            if text[1] in dic[text[0]]:
+                if text[2] in dic[text[0]][text[1]]:
+                    return True
+        return False
     elif leng == 4:
-        return check_1(texts)
+        if text[0] in dic:
+            if text[1] in dic[text[0]]:
+                if text[2] in dic[text[0]][text[1]]:
+                    if text[3] in dic[text[0]][text[1]][text[2]]:
+                        return True
+        return False
     else:
         print('error: texts not in 2~4 length')
         return False
+
 
 if __name__ == '__main__':
     text = str(input())
