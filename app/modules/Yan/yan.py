@@ -32,6 +32,8 @@ def post_yan(bot, update):
                     )
                 )
     print(len(results))
+    if len(results) >  40:
+        results = results[:40]
     update.inline_query.answer(results)
 
 
