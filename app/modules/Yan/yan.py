@@ -9,21 +9,14 @@ f=open(YanDataPath,encoding='utf-8')
 info=f.read()
 Data=dict(json.loads(info))['list']
 tags='['
-<<<<<<< HEAD
 
 def return_all_emoji():
     yans = []
     for item in Data:
         tags = tags+"["+item["tag"]+"]"+'\n'
-        yans.append(i['yan'])
+        yans.append(item['yan'])
     return yans
 
-=======
-yans=[]
-for item in Data:
-    tags=tags+"["+item["tag"]+"]"+'\n'
-    yans.append(item['yan'])
->>>>>>> 6d6f8609e313c80576df4f12f8ef594d34285e54
 def post_yan(bot, update):
     query = update.inline_query.query
     if len(query) == 0:
