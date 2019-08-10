@@ -15,7 +15,7 @@ def message_handler(bot, update):
     message = update.message.text
 
     if message[0] == '/':
-        return 
+        return
 
     zhuyin_reply = zhuyin_handle(message, update.message.from_user.id)
     if zhuyin_reply is not None:

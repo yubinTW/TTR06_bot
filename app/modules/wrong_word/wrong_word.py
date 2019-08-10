@@ -21,12 +21,17 @@ with open('app/modules/wrong_word/punctuation.json', 'r', encoding='utf-8') as j
 template_single_list = [
     '$ans啦幹',
     '$ans啦幹啦幹',
-    '-->$ans<--??ouo???',
-    '$ori->$ans'
+    '$ans<---??'
 ]
 
 # {}.format(<whole correct str>)
 template_str_list = [
+    '$str,白癡',
+    '$str,87',
+    '$str,臭八七',
+    '$str,姆咪喔',
+    '$str,姆咪4ni',
+    '$str,這次就饒過你，再錯字試試看',
     '$str,歐ㄑㄑㄑㄑㄑㄑㄑ'
 ]
 
