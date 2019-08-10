@@ -2,7 +2,7 @@ import requests
 import random
 import json
 import string
-from modules.Yan.yan import return_all_emoji
+from modules.Yan.yan import yans
 
 # writing with ass grammer:
 # nn mode and None_nn model
@@ -20,7 +20,7 @@ punctuation_dict = {}
 with open('app/modules/wrong_word/punctuation.json', 'r', encoding='utf-8') as json_file:
     punctuation_dict = json.load(json_file)
 
-emoji_list = return_all_emoji()
+emoji_list = yans
 for emoji in emoji_list:
     emoji_dict[emoji[0]] = 1
 # end get punctuation

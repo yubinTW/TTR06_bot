@@ -5,21 +5,16 @@ from telegram.ext import InlineQueryHandler
 from telegram import InlineQueryResultArticle, InputTextMessageContent
 import logging
 import uuid
-YanDataPath = 'app/modules/Yan/yan.json'
-f = open(YanDataPath, encoding='utf-8')
-info = f.read()
-Data = dict(json.loads(info))['list']
-tags = '['
+
+with open('app/modules/Yan/yan.json', encoding='utf-8') as FILE:
+    Data = json.load(FILE)['list']
 
 
-def return_all_emoji():
-    yans = []
-    tags = ""
-    for item in Data:
-        tags = tags+"["+item["tag"]+"]"+'\n'
-        yans.append(item['yan'])
-    return yans
-
+tags = ""
+yans = []
+for item in Data:
+    tags = tags+"["+item["tag"]+"]"+'\n'
+    yans.append(item['yan'])
 
 def post_yan(bot, update):
     query = update.inline_query.query
@@ -43,6 +38,8 @@ def post_yan(bot, update):
 def helpping(bot, update):
     reply_message = "你可以說的有\n\n{}".format(tags)
     update.message.reply_text(reply_message)
-def showinfo(bot,update):
-    reply_message='made by:Kenn,Yuga Lin,An,Borm,An Jung\n\n隊輔：去冰,宙斯'
+
+
+def showinfo(bot, update):
+    reply_message = 'made by:Kenn,Yuga Lin,An,Borm,An Jung\n\n隊輔：去冰,宙斯'
     update.message.reply_text(reply_message)
