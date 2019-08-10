@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
 import json
-
+from modules.Yan import post_yan
 from modules.zhuyin.zhuyin import handle_tg_message as zhuyin_handle
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',level=logging.INFO)
@@ -20,6 +20,7 @@ def message_handler(bot, update):
 
 updater = Updater(config['bot_token'])
 updater.dispatcher.add_handler(MessageHandler(Filters.text, message_handler))
+updater.dispatcher.add_handler(InlineQueryHandler(post_yan))
 
 updater.start_polling()  
 print('bot started')
