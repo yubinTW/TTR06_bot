@@ -4,7 +4,7 @@ from telegram.ext import InlineQueryHandler
 from telegram import InlineQueryResultArticle,InputTextMessageContent
 import logging
 import uuid
-YanDataPath='yan.json'
+YanDataPath='app/modules/Yan/yan.json'
 f=open(YanDataPath,encoding='utf-8')
 info=f.read()
 Data=dict(json.loads(info))['list']
@@ -12,7 +12,7 @@ tags='['
 yans=[]
 for item in Data:
     tags=tags+"["+item["tag"]+"]"+'\n'
-    yans.append(i['yan'])git
+    yans.append(i['yan'])
 def post_yan(bot, update):
     query = update.inline_query.query
     if len(query) == 0:
@@ -33,4 +33,3 @@ def post_yan(bot, update):
 def helpping(bot,update):
     reply_message="你可以說的有\n\n{}".format(tags)
     update.message.reply_text(reply_message)
- ｀

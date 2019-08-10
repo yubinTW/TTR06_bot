@@ -5,7 +5,7 @@ from modules.Yan.yan import post_yan, helpping
 from modules.wrong_word.wrong_word import wrong_word_checker
 from modules.zhuyin.zhuyin import handle_tg_message as zhuyin_handle
 
-logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.DEBUG)
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 with open('config.json') as config_file:
     config = json.load(config_file)

@@ -50,9 +50,13 @@ def checkVaildInput(input):
 
 
 def handle_tg_message(message, sender_id):
+    if message[-1] not in [' ','6','3','4']:
+        print('add space')
+        message += ' '
+
     for c in message:
         ord_num = ord(c)
-        if not ((ord_num >= 65 and ord_num <= 90) or (ord_num >= 48 and ord_num <= 57)or(ord_num >= 97 and ord_num <= 122)):
+        if not ((ord_num >= 65 and ord_num <= 90) or (ord_num >= 48 and ord_num <= 57)or(ord_num >= 97 and ord_num <= 122)or ord_num == ord(' ') or ord_num == ord('-')):
             return None
 
     if checkVaildInput(message):
