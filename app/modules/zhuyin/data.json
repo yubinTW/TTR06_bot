@@ -1,0 +1,2947 @@
+{
+    "ㄅ": {
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄛ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄧ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄝ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄠ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        }
+    },
+    "ㄆ": {
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄛ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄧ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄚ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄝ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄠ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        }
+    },
+    "ㄇ": {
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄛ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄜ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": true
+        },
+        "ㄞ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄤ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄧ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄝ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄠ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄡ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄨ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        }
+    },
+    "ㄈ": {
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄛ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        }
+    },
+    "ㄉ": {
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄜ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": true
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄧ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄝ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄠ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄡ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄛ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄊ": {
+        "ㄚ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄜ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄧ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄝ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄠ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄛ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄋ": {
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄜ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄝ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄞ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄥ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄧ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄝ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄠ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄡ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄨ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄛ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄩ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄝ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄌ": {
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄛ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": true
+        },
+        "ㄜ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄞ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄢ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄧ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true,
+            "ㄚ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄝ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄠ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄡ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄛ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄩ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄝ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": false,
+                "˙": false
+            }
+        }
+    },
+    "ㄍ": {
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄜ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄚ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄛ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄞ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄎ": {
+        "ㄚ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄜ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄚ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄛ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄞ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄏ": {
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄜ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄚ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄛ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": true
+            },
+            "ㄞ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": true
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄐ": {
+        "ㄧ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄚ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄝ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄠ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄡ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄩ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄝ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": false,
+                "˙": false
+            }
+        }
+    },
+    "ㄑ": {
+        "＿": false,
+        "ˊ": false,
+        "ˇ": false,
+        "ˋ": false,
+        "˙": true,
+        "ㄧ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄚ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄝ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄠ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄡ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄩ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄝ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": false,
+                "˙": false
+            }
+        }
+    },
+    "ㄒ": {
+        "ㄧ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄚ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄝ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄠ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄡ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        },
+        "ㄩ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄝ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄓ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false,
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄜ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄚ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄛ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄞ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄔ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false,
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄜ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄚ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄛ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄞ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄕ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": true,
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄜ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄚ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄛ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄞ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄤ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄖ": {
+        "＿": false,
+        "ˊ": false,
+        "ˇ": false,
+        "ˋ": true,
+        "˙": false,
+        "ㄜ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄨ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄛ": {
+                "＿": false,
+                "ˊ": false,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": false,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": false,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": false,
+                "˙": false
+            }
+        }
+    },
+    "ㄗ": {
+        "＿": true,
+        "ˊ": false,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": true,
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄜ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false,
+            "ㄛ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄘ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false,
+        "ㄚ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄜ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false,
+            "ㄛ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": false,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄙ": {
+        "＿": true,
+        "ˊ": false,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false,
+        "ㄚ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄜ": {
+            "＿": false,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄨ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false,
+            "ㄛ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄟ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄢ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄣ": {
+                "＿": true,
+                "ˊ": false,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            },
+            "ㄥ": {
+                "＿": true,
+                "ˊ": true,
+                "ˇ": true,
+                "ˋ": true,
+                "˙": false
+            }
+        }
+    },
+    "ㄚ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": false,
+        "ˋ": true,
+        "˙": true
+    },
+    "ㄛ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": false,
+        "˙": false
+    },
+    "ㄜ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false
+    },
+    "ㄝ": {
+        "＿": false,
+        "ˊ": false,
+        "ˇ": false,
+        "ˋ": true,
+        "˙": false
+    },
+    "ㄞ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false
+    },
+    "ㄟ": {
+        "＿": false,
+        "ˊ": false,
+        "ˇ": false,
+        "ˋ": true,
+        "˙": false
+    },
+    "ㄠ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false
+    },
+    "ㄡ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false
+    },
+    "ㄢ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false
+    },
+    "ㄣ": {
+        "＿": true,
+        "ˊ": false,
+        "ˇ": false,
+        "ˋ": true,
+        "˙": true
+    },
+    "ㄤ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": false,
+        "ˋ": true,
+        "˙": false
+    },
+    "ㄥ": {
+        "＿": true,
+        "ˊ": false,
+        "ˇ": false,
+        "ˋ": false,
+        "˙": false
+    },
+    "ㄦ": {
+        "＿": false,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false
+    },
+    "ㄧ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false,
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄛ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄝ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄞ": {
+            "＿": false,
+            "ˊ": true,
+            "ˇ": false,
+            "ˋ": false,
+            "˙": false
+        },
+        "ㄠ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄡ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        }
+    },
+    "ㄨ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false,
+        "ㄚ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": true
+        },
+        "ㄛ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄞ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄟ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄤ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        }
+    },
+    "ㄩ": {
+        "＿": true,
+        "ˊ": true,
+        "ˇ": true,
+        "ˋ": true,
+        "˙": false,
+        "ㄝ": {
+            "＿": true,
+            "ˊ": false,
+            "ˇ": false,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄢ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄣ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        },
+        "ㄥ": {
+            "＿": true,
+            "ˊ": true,
+            "ˇ": true,
+            "ˋ": true,
+            "˙": false
+        }
+    }
+}

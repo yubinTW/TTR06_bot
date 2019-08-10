@@ -1,12 +1,11 @@
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, InlineQueryHandler
 import logging
 import json
-from modules.Yan import post_yan
-
+from modules.Yan.hackathon import post_yan
 from modules.wrong_word.wrong_word import wrong_word_checker
 from modules.zhuyin.zhuyin import handle_tg_message as zhuyin_handle
 
-logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 
 with open('config.json') as config_file:
     config = json.load(config_file)
@@ -14,12 +13,16 @@ with open('config.json') as config_file:
 
 def message_handler(bot, update):
     message = update.message.text
-    zhuyin_reply = zhuyin_handle(message, update.message.from_user.id)
-    wrong_word_reply = wrong_word_checker(message)
 
+    if message[0] == '/':
+        return 
+
+    zhuyin_reply = zhuyin_handle(message, update.message.from_user.id)
     if zhuyin_reply is not None:
         update.message.reply_markdown(zhuyin_reply)
-    elif wrong_word_reply is not None:
+
+    wrong_word_reply = wrong_word_checker(message)
+    if wrong_word_reply is not None:
         update.message.reply_text(wrong_word_reply)
 
 

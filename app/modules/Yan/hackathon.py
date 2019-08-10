@@ -3,7 +3,7 @@ import random, time
 from telegram.ext import InlineQueryHandler
 from telegram import InlineQueryResultArticle,InputTextMessageContent
 import uuid
-YanDataPath='yan.json'
+YanDataPath='app/modules/Yan/yan.json'
 file=open(YanDataPath,encoding='utf-8')
 info=file.read()
 Data=dict(json.loads(info))['list']

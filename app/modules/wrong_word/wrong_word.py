@@ -14,7 +14,7 @@ url = 'http://ckip.iis.sinica.edu.tw/service/typo/api'
 
 # exec when import the file
 punctuation_dict = {}
-with open('./modules/wrong_word/punctuation.json', 'r') as json_file:
+with open('app/modules/wrong_word/punctuation.json', 'r', encoding='utf-8') as json_file:
     punctuation_dict = json.load(json_file)
 
 
@@ -199,7 +199,8 @@ def wrong_word_checker(input_str):
         template = string.Template(template_single_list[index])
         return template.substitute(wrong_char_dic)
     else:
-        correct_str = arrange_str_pun_dic(new_dic_list, split_dic['punctuation_list'])
+        correct_str = arrange_str_pun_dic(
+            new_dic_list, split_dic['punctuation_list'])
         index = random.randint(0, len(template_str_list) - 1)
         template = string.Template(template_str_list[index])
         return template.substitute({'str': correct_str})
