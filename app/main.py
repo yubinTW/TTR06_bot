@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, InlineQueryHandler
 import logging
 import json
-from modules.Yan.hackathon import post_yan
+from modules.Yan.yan import post_yan, helpping
 from modules.wrong_word.wrong_word import wrong_word_checker
 from modules.zhuyin.zhuyin import handle_tg_message as zhuyin_handle
 
@@ -27,6 +27,7 @@ def message_handler(bot, update):
 
 
 updater = Updater(config['bot_token'])
+updater.dispatcher.add_handler(CommandHandler('help', helpping))
 updater.dispatcher.add_handler(MessageHandler(Filters.text, message_handler))
 updater.dispatcher.add_handler(InlineQueryHandler(post_yan))
 

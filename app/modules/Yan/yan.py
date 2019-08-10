@@ -4,7 +4,7 @@ from telegram.ext import InlineQueryHandler
 from telegram import InlineQueryResultArticle,InputTextMessageContent
 import logging
 import uuid
-YanDataPath='yan.json'
+YanDataPath='app/modules/Yan/yan.json'
 f=open(YanDataPath,encoding='utf-8')
 info=f.read()
 Data=dict(json.loads(info))['list']

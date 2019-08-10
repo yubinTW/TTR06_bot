@@ -5,7 +5,7 @@ import random
 import re
 
 reply_sentences = [
-    "你是想說 **{correct}** 嗎?",
+    "你是想說 **\"{correct}\"** 嗎?",
     "忘記切輸入法了啦,幫你翻譯\n**{correct}**",
     "這是你第{count}次忘記切換輸入法了唷~~\n**{correct}**"
 ]
@@ -52,9 +52,9 @@ def checkVaildInput(input):
 def handle_tg_message(message, sender_id):
     for c in message:
         ord_num = ord(c)
-        if not (ord_num >= 65 and ord_num <= 90) or (ord_num >= 48 and ord_num <= 57)or(ord_num >= 97 and ord_num <= 122):
+        if not ((ord_num >= 65 and ord_num <= 90) or (ord_num >= 48 and ord_num <= 57)or(ord_num >= 97 and ord_num <= 122)):
             return None
-        
+
     if checkVaildInput(message):
         correct_sentence = engkey_to_words(message)
         if len(correct_sentence) != 0:
