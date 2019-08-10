@@ -1,4 +1,5 @@
 import json
+from .zhuyin_engkey_dict import eng_zhuyin_dict
 
 dic = {}
 
@@ -8,9 +9,17 @@ with open('app/modules/zhuyin/data.json',encoding='utf-8') as FILE:
 # check one word
 
 
-def check(text):
-    return True
-    leng = len(text)
+def check(inputS):
+    text = ""
+    leng = len(inputS)
+
+    for c in inputS:
+        if c == ' ':
+            text += '＿'
+        else:
+            text += eng_zhuyin_dict[c]
+
+    print(text)
     if leng == 2:
         if text[0] in dic:
             if text[1] in dic[text[0]]:
@@ -19,6 +28,7 @@ def check(text):
     elif leng == 3:
         if text[0] in dic:
             if text[1] in dic[text[0]]:
+                print(dic[text[0]])
                 if text[2] in dic[text[0]][text[1]]:
                     return True
         return False
