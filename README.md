@@ -28,3 +28,10 @@ $ pipenv run python3 ./app/main.py
 - 再啦幹
   - wrong_word
 - 顏文字
+
+## Run with docker
+```
+cd TTR06_bot
+docker build -t team6-server .
+docker run --name team6-server -d team6-server
+```
