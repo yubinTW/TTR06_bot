@@ -137,8 +137,15 @@ def get_correct_text(text):
     # json like string to json, then get text
     if rnn.status_code != 200 or rn_nn.status_code != 200:
         return None
-    rnn_text = json.loads(rnn.text)['corrected']
-    rn_nn_text = json.loads(rn_nn.text)['corrected']
+    rnn_text = ''
+    rn_nn_text = ''
+    
+    try:
+        rnn_text = json.loads(rnn.text)['corrected']
+        rn_nn_text = json.loads(rn_nn.text)['corrected']
+    except json.decoder.JSONDecodeError as e:
+        print(e)
+        return None
 
     # test print
     print('nn:'+rnn_text)
