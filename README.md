@@ -22,12 +22,12 @@ $ pipenv run python3 ./app/main.py
 ```
 
 ## feature:
-- 文字特效
 - 你天殺的忘記切輸入法
   - zhuyin
 - 再啦幹
   - wrong_word
 - 顏文字
+  - <(*ΦωΦ*)>
 
 ## Run with docker
 ```
