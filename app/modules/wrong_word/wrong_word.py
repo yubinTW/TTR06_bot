@@ -159,7 +159,10 @@ def get_correct_text(text):
         ans = ori
         temp_change_dic = {}
         isDifferent = False
-        if index < len(rnn_text) and ori != rnn_text[index]:
+        
+        if ori == '喔':
+            pass
+        elif index < len(rnn_text) and ori != rnn_text[index]:
             isDifferent = True
             ans = rnn_text[index]
 
