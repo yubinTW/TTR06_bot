@@ -16,6 +16,7 @@ for item in Data:
     tags = tags+"["+item["tag"]+"]"+'\n'
     yans.append(item['yan'])
 
+
 def post_yan(bot, update):
     query = update.inline_query.query
     if len(query) == 0:
@@ -24,15 +25,27 @@ def post_yan(bot, update):
     for i in Data:
         if query in i['tag']:
             for y in i['yan']:
-                results.append(
-                    InlineQueryResultArticle(
+                inline_result_article = None
+                if '```' in y:
+                    inline_result_article = InlineQueryResultArticle(
                         id=str(uuid.uuid4()),
                         title=y,
-                        input_message_content=InputTextMessageContent(y)
+                        input_message_content=InputTextMessageContent(
+                            y, 'Markdown')
                     )
+                else:
+                    inline_result_article = InlineQueryResultArticle(
+                        id=str(uuid.uuid4()),
+                        title=y,
+                        input_message_content=InputTextMessageContent(
+                            y)
+                    )
+
+                results.append(
+                    inline_result_article
                 )
     print('Yan query result length: {}'.format(len(results)))
-    if len(results) >  40:
+    if len(results) > 40:
         results = results[:40]
     update.inline_query.answer(results)
 
