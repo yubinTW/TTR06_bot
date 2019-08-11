@@ -25,7 +25,7 @@ def message_handler(bot, update):
         print('Zhuyin reply: {}'.format(zhuyin_reply))
         update.message.reply_markdown(zhuyin_reply)
 
-    if len(message) > 1:
+    if len(message) > 1 and message[0] != 'M':
         wrong_word_reply = wrong_word_checker(message)
         if wrong_word_reply is not None:
             print('Wrong word reply: {}'.format(wrong_word_reply))
