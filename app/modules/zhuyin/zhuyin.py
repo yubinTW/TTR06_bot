@@ -32,18 +32,16 @@ def engkey_to_words(engkey):
 
 
 def checkVaildInput(input):
-    final = []
     sep = re.split(' |6|3|4', input)
     curr_index = 0
     for item in sep:
         curr_index += len(item)+1
         if curr_index > len(input):
             break
-        print(curr_index)
         one_text = item+input[curr_index-1]
-        print(one_text)
+        # print(input)
         if not check(one_text):
-            print('fail')
+            # print('fail')
             return False
 
     return True
@@ -51,7 +49,7 @@ def checkVaildInput(input):
 
 def handle_tg_message(message, sender_id):
     if message[-1] not in [' ', '6', '3', '4']:
-        print('add space')
+        # print('add space')
         message += ' '
 
     for c in message:

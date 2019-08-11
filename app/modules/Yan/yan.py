@@ -31,14 +31,14 @@ def post_yan(bot, update):
                         input_message_content=InputTextMessageContent(y)
                     )
                 )
-    print(len(results))
+    print('Yan query result length: {}'.format(len(results)))
     if len(results) >  40:
         results = results[:40]
     update.inline_query.answer(results)
 
 
 def helpping(bot, update):
-    reply_message = "傳出顏文字:\n `@TTR06_bot <關鍵字>`\n你可以用的關鍵字有:\n\n{}".format(tags)
+    reply_message = "變形金剛操作手冊：(ﾉ≧∀≦)ﾉ\n\n*傳出顏文字:*\n `@TTR06_bot <關鍵字>`\n你可以用的關鍵字有:\n\n{}".format(tags)
     update.message.reply_markdown(reply_message)
 
 

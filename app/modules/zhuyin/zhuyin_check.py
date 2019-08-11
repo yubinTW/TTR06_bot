@@ -19,7 +19,6 @@ def check(inputS):
         else:
             text += eng_zhuyin_dict[c]
 
-    print(text)
     if leng == 2:
         if text[0] in dic:
             if text[1] in dic[text[0]]:
@@ -28,7 +27,6 @@ def check(inputS):
     elif leng == 3:
         if text[0] in dic:
             if text[1] in dic[text[0]]:
-                print(dic[text[0]])
                 if text[2] in dic[text[0]][text[1]]:
                     return True
         return False

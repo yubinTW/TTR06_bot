@@ -17,13 +17,17 @@ def message_handler(bot, update):
 
     if message[0] == '/':
         return
+    
+    print('User {} type in: {}'.format(update.message.from_user.first_name, message))
 
     zhuyin_reply = zhuyin_handle(message, update.message.from_user.id)
     if zhuyin_reply is not None:
+        print('Zhuyin reply: {}'.format(zhuyin_reply))
         update.message.reply_markdown(zhuyin_reply)
 
     wrong_word_reply = wrong_word_checker(message)
     if wrong_word_reply is not None:
+        print('Wrong word reply: {}'.format(wrong_word_reply))
         update.message.reply_text(wrong_word_reply)
 
 
