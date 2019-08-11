@@ -148,8 +148,8 @@ def get_correct_text(text):
         return None
 
     # test print
-    print('nn:'+rnn_text)
-    print('none nn:'+rn_nn_text)
+    # print('nn:'+rnn_text)
+    # print('none nn:'+rn_nn_text)
 
     # check every char in string
     new_text = ''
@@ -159,11 +159,11 @@ def get_correct_text(text):
         ans = ori
         temp_change_dic = {}
         isDifferent = False
-        if ori != rnn_text[index]:
+        if index < len(rnn_text) and ori != rnn_text[index]:
             isDifferent = True
             ans = rnn_text[index]
 
-        elif ori != rn_nn_text[index]:
+        elif index < len(rn_nn_text) and ori != rn_nn_text[index]:
             isDifferent = True
             ans = rn_nn_text[index]
 
@@ -181,8 +181,8 @@ def get_correct_text(text):
         else:
             new_text += ans
     # end for
-    print('new_text:' + new_text)  # test print
-    print('list:', changed_char_list)
+    # print('new_text:' + new_text)  # test print
+    # print('list:', changed_char_list)
 
     if len(changed_char_list) == 0:
         return None
@@ -207,7 +207,7 @@ def wrong_word_checker(input_str):
     wrong_dic_list = []
     wrong_num = 0
 
-    print('split str:', split_dic)  # test
+    # print('split str:', split_dic)  # test
 
     # check and get correct
     for str in split_dic['str_list']:
