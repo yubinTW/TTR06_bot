@@ -139,7 +139,7 @@ def get_correct_text(text):
         return None
     rnn_text = ''
     rn_nn_text = ''
-    
+
     try:
         rnn_text = json.loads(rnn.text)['corrected']
         rn_nn_text = json.loads(rn_nn.text)['corrected']
@@ -213,7 +213,7 @@ def wrong_word_checker(input_str):
     for str in split_dic['str_list']:
         temp = get_correct_text(str)
         if temp is not None:
-            wrong_num += 1
+            wrong_num += len(temp['changed_char_list'])
             wrong_dic_list.append(temp)
         new_dic_list.append(temp)
 
@@ -221,6 +221,7 @@ def wrong_word_checker(input_str):
     if wrong_num == 0:
         return None
     elif wrong_num == 1:
+        # single
         dic = wrong_dic_list[0]  # {'new_str', 'changed_char_list'}
         wrong_char_dic = dic['changed_char_list'][0]
 
@@ -228,6 +229,7 @@ def wrong_word_checker(input_str):
         template = string.Template(template_single_list[index])
         return template.substitute(wrong_char_dic)
     else:
+        # multiple
         correct_str = arrange_str_pun_dic(
             new_dic_list, split_dic['punctuation_list'])
         index = random.randint(0, len(template_str_list) - 1)
