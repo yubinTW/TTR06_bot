@@ -12,6 +12,14 @@ from modules.Yan.yan import yans
 
 # param: url, const string
 url = 'http://ckip.iis.sinica.edu.tw/service/typo/api'
+exception_dict = {
+    '喔': 1,
+    '窩': 1,
+    '欸': 1,
+    '呦': 1,
+    '喲': 1,
+    '啦': 1
+}
 
 # get: punctuation_list, emoji_list
 # exec when import the file
@@ -159,8 +167,8 @@ def get_correct_text(text):
         ans = ori
         temp_change_dic = {}
         isDifferent = False
-        
-        if ori == '喔':
+
+        if ori in exception_dict:
             pass
         elif index < len(rnn_text) and ori != rnn_text[index]:
             isDifferent = True
