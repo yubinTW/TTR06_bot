@@ -25,10 +25,11 @@ def message_handler(bot, update):
         print('Zhuyin reply: {}'.format(zhuyin_reply))
         update.message.reply_markdown(zhuyin_reply)
 
-    wrong_word_reply = wrong_word_checker(message)
-    if wrong_word_reply is not None:
-        print('Wrong word reply: {}'.format(wrong_word_reply))
-        update.message.reply_text(wrong_word_reply)
+    if len(message) > 1:
+        wrong_word_reply = wrong_word_checker(message)
+        if wrong_word_reply is not None:
+            print('Wrong word reply: {}'.format(wrong_word_reply))
+            update.message.reply_text(wrong_word_reply)
 
 
 updater = Updater(config['bot_token'])
