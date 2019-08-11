@@ -38,10 +38,10 @@ def post_yan(bot, update):
 
 
 def helpping(bot, update):
-    reply_message = "你可以說的有\n\n{}".format(tags)
-    update.message.reply_text(reply_message)
+    reply_message = "傳出顏文字:\n `@TTR06_bot <關鍵字>`\n你可以用的關鍵字有:\n\n{}".format(tags)
+    update.message.reply_markdown(reply_message)
 
 
 def showinfo(bot, update):
-    reply_message = 'made by:Kenn,Yuga Lin,An,Borm,An Jung\n\n隊輔：去冰,宙斯'
-    update.message.reply_text(reply_message)
+    reply_message = '*SITCON Camp 2019*\n*Team #6*\n\nMade by:\n - Kenn\n - Yuga Lin\n - An\n - Borm\n - An Jung\n - TIM\n\n隊輔:\n - 去冰\n - 宙斯'
+    update.message.reply_markdown(reply_message)
