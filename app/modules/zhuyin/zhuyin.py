@@ -48,7 +48,7 @@ def checkVaildInput(input):
 
 
 def handle_tg_message(message, sender_id):
-    if message[-1] not in [' ', '6', '3', '4']:
+    if message[-1] not in [' ', '6', '3', '4', '7']:
         # print('add space')
         message += ' '
 
