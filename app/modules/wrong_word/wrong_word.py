@@ -135,6 +135,8 @@ def get_correct_text(text):
     rnn = requests.post(url, json=data_nn)  # nn
     rn_nn = requests.post(url, json=data_none_nn)  # none nn
     # json like string to json, then get text
+    if rnn.status_code != 200 or rn_nn.status_code != 200:
+        return None
     rnn_text = json.loads(rnn.text)['corrected']
     rn_nn_text = json.loads(rn_nn.text)['corrected']
 
