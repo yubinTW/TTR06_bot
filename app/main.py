@@ -25,11 +25,12 @@ def message_handler(bot, update):
         print('Zhuyin reply: {}'.format(zhuyin_reply))
         update.message.reply_markdown(zhuyin_reply)
 
-    if len(message) > 1 and message[0] != 'M':
-        wrong_word_reply = wrong_word_checker(message)
-        if wrong_word_reply is not None:
-            print('Wrong word reply: {}'.format(wrong_word_reply))
-            update.message.reply_text(wrong_word_reply)
+    # 因為中研院的錯字偵測API很雷，先關掉
+    # if len(message) > 1 and message[0] != 'M':
+    #     wrong_word_reply = wrong_word_checker(message)
+    #     if wrong_word_reply is not None:
+    #         print('Wrong word reply: {}'.format(wrong_word_reply))
+    #         update.message.reply_text(wrong_word_reply)
 
 
 updater = Updater(config['bot_token'])
